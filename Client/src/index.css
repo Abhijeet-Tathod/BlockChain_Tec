@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 10px;
+  background-color: #161620;
+}
+
+h1 {
+  margin: 0;
+  background: #010407;
+  color: white;
+  padding: 2% 0 2% 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+form {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  width: 30%;
+  margin: 2% 35% 0 35%;
+  background-color: #161620;
+  border: solid 1px wheat;
+  border-radius: 5px;
+}
+
+textarea {
+  display: block;
+  max-width: 99%;
+  min-width: 99%;
+  min-height: 15vh;
+  height: auto;
+  border: 0;
+  padding: 3% 0 0 1%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  font-size: large;
+  outline: none;
+  resize: none;
+  background-color: #010407;
+  color: white;
+}
+textarea::placeholder {
+  color: white;
+}
+
+input {
+  outline: none;
+  border: 0;
+  padding: 1% 0 0 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: larger;
+  background-color: #010407;
+  width: 98%;
+  color: white;
+  border-bottom: solid wheat 1px;
+  padding-bottom: 6px;
+}
+
+input::placeholder {
+  color: white;
+}
+button {
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  color: #000;
+  float: right;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.add {
+  margin-top: -5%;
+  width: 50px;
+  height: 50px;
+}
+
+.add:hover {
+  background: rgb(4, 254, 4);
+  color: #fff;
+}
+
+.container {
+  margin-top: 5%;
+}
+
+.box {
+  float: left;
+  margin: 1% 2% 4% 2%;
+  width: fit-content;
+  padding: 0% 1% 1% 1%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+  background-color: #010407;
+  border: solid wheat 1px;
+  color: white;
+  border-radius: 5px;
+}
+
+h2 {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+  font-size: larger;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 43.5%;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 912px) {
+  /* Styles for devices with maximum width of 768px or lower */
+  form {
+    width: 80%;
+    margin: 2% 10% 0 10%;
+  }
+
+  footer {
+    margin-left: 30%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for devices with maximum width of 480px or lower */
+  form {
+    width: 90%;
+    margin: 2% 5% 0 5%;
+  }
+
+  footer {
+    margin-left: 20%;
+  }
+}

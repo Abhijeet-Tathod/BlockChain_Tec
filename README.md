@@ -12,6 +12,7 @@ Welcome to the Awesome Blockchain Project! This project is a fantastic explorati
 6. [Potential Improvements](#potential-improvements)
 7. [Conclusion](#conclusion)
 
+
 ## Introduction
 
 Blockchain technology has gained immense popularity due to its potential to revolutionize various industries. This report presents a blockchain project implemented in JavaScript. The project focuses on the core principles of blockchain, including block creation, chain validation, and peer-to-peer network synchronization. In this report, we will delve into the project's components, functionality, and potential areas of improvement.
